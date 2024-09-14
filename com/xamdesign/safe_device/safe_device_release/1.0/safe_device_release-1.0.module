@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.xamdesign.safe_device",
+    "module": "safe_device_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_release-1.0.aar",
+          "url": "safe_device_release-1.0.aar",
+          "size": 75030,
+          "sha512": "867cfb07d44e73a5eca2296b6d7b334ecd36e127cdf5c25815c784e857df088f2286752e22f7e2bc4e9ee14ea47b6b58934ad8d2571313df97efb0e587401537",
+          "sha256": "772e03577e9b08fb9219583f4a71f5c6bfaf11f36ad26705563c6652c7230b3d",
+          "sha1": "675147f8abd1b7565fc9bc760000d8312cc589b7",
+          "md5": "e5f578d03f739782e632c6f48dd2cd3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.scottyab",
+          "module": "rootbeer-lib",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v13",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "safe_device_release-1.0.aar",
+          "url": "safe_device_release-1.0.aar",
+          "size": 75030,
+          "sha512": "867cfb07d44e73a5eca2296b6d7b334ecd36e127cdf5c25815c784e857df088f2286752e22f7e2bc4e9ee14ea47b6b58934ad8d2571313df97efb0e587401537",
+          "sha256": "772e03577e9b08fb9219583f4a71f5c6bfaf11f36ad26705563c6652c7230b3d",
+          "sha1": "675147f8abd1b7565fc9bc760000d8312cc589b7",
+          "md5": "e5f578d03f739782e632c6f48dd2cd3a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.googlesignin",
+    "module": "google_sign_in_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_sign_in_android_release-1.0.aar",
+          "url": "google_sign_in_android_release-1.0.aar",
+          "size": 44046,
+          "sha512": "06d0ddc76d353c7b2171edc873056370206cff609909ed7ab68a0ac9a26d11e65810fc7a766ecfa71c07323ccd61a81893f44d00f9208aa4fea96fa71f6d0af4",
+          "sha256": "ea141d64645a14a44aadf9c630ae541944b8ae49a33141739a9803bd3e2003e7",
+          "sha1": "dea74fa9b7ef14a9bf3c67f7e226dbe136a12474",
+          "md5": "1a0a2cfa1200d539ff87054ed2a61c42"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "20.7.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_sign_in_android_release-1.0.aar",
+          "url": "google_sign_in_android_release-1.0.aar",
+          "size": 44046,
+          "sha512": "06d0ddc76d353c7b2171edc873056370206cff609909ed7ab68a0ac9a26d11e65810fc7a766ecfa71c07323ccd61a81893f44d00f9208aa4fea96fa71f6d0af4",
+          "sha256": "ea141d64645a14a44aadf9c630ae541944b8ae49a33141739a9803bd3e2003e7",
+          "sha1": "dea74fa9b7ef14a9bf3c67f7e226dbe136a12474",
+          "md5": "1a0a2cfa1200d539ff87054ed2a61c42"
+        }
+      ]
+    }
+  ]
+}

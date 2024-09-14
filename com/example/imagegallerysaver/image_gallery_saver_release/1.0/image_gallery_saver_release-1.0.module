@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.imagegallerysaver",
+    "module": "image_gallery_saver_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_gallery_saver_release-1.0.aar",
+          "url": "image_gallery_saver_release-1.0.aar",
+          "size": 10275,
+          "sha512": "d3be8378a6e4f6b4bec54e6540b0ca30fb9419381ed580c6dc7cfa256817347d0d9a7ab2375f8dc90afa651b1385a4d77d88c1601973e6a6da8ae5b7957e9245",
+          "sha256": "041e3807ada20588bd0d785064e549f2b6a99e8c20ff698780d5ce5c55dcdef7",
+          "sha1": "70aa6a98b7293f87e55fb84d2803c6e6b3407d04",
+          "md5": "c591b2d3fc60a90f7981f53e93ccf2c6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_gallery_saver_release-1.0.aar",
+          "url": "image_gallery_saver_release-1.0.aar",
+          "size": 10275,
+          "sha512": "d3be8378a6e4f6b4bec54e6540b0ca30fb9419381ed580c6dc7cfa256817347d0d9a7ab2375f8dc90afa651b1385a4d77d88c1601973e6a6da8ae5b7957e9245",
+          "sha256": "041e3807ada20588bd0d785064e549f2b6a99e8c20ff698780d5ce5c55dcdef7",
+          "sha1": "70aa6a98b7293f87e55fb84d2803c6e6b3407d04",
+          "md5": "c591b2d3fc60a90f7981f53e93ccf2c6"
+        }
+      ]
+    }
+  ]
+}

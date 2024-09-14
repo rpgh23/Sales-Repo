@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.incrediblezayed.file_saver",
+    "module": "file_saver_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_saver_debug-1.0.aar",
+          "url": "file_saver_debug-1.0.aar",
+          "size": 20109,
+          "sha512": "d63b2685f35783bff75f1701a0282d06adaf310d967857981e913e381eae138715ce3d4dbeb61f698576882b74998d8deef41ea7231b771bcbadabcca10425c4",
+          "sha256": "111f1beffc635371a0ec0c1463730112952e176ee7998902c2e49cc6e10e2043",
+          "sha1": "22bd54e55ed8c76440103e75b689dd458e6cc0da",
+          "md5": "77cccd754c95afa3d7169eed819ea8e4"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_saver_debug-1.0.aar",
+          "url": "file_saver_debug-1.0.aar",
+          "size": 20109,
+          "sha512": "d63b2685f35783bff75f1701a0282d06adaf310d967857981e913e381eae138715ce3d4dbeb61f698576882b74998d8deef41ea7231b771bcbadabcca10425c4",
+          "sha256": "111f1beffc635371a0ec0c1463730112952e176ee7998902c2e49cc6e10e2043",
+          "sha1": "22bd54e55ed8c76440103e75b689dd458e6cc0da",
+          "md5": "77cccd754c95afa3d7169eed819ea8e4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.odehbros.flutter_file_downloader",
+    "module": "flutter_file_downloader_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_file_downloader_release-1.0.aar",
+          "url": "flutter_file_downloader_release-1.0.aar",
+          "size": 28335,
+          "sha512": "6a75919bf0d50eea4ee4f1c80794407437ed0289a69ed2ce480e516e75e4ed0a2a5095fb963932398e6abb761cf7928216918b1cfa8c031e82abac2f9b8df969",
+          "sha256": "44b9926e8d8b7c9e87ad20715ee5de8594522e27707bc92dd7aada9b47e60695",
+          "sha1": "086aae21f015b21d762e52d33b98f4377017b01e",
+          "md5": "96ebe06decceb1753e06df06b498628a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_file_downloader_release-1.0.aar",
+          "url": "flutter_file_downloader_release-1.0.aar",
+          "size": 28335,
+          "sha512": "6a75919bf0d50eea4ee4f1c80794407437ed0289a69ed2ce480e516e75e4ed0a2a5095fb963932398e6abb761cf7928216918b1cfa8c031e82abac2f9b8df969",
+          "sha256": "44b9926e8d8b7c9e87ad20715ee5de8594522e27707bc92dd7aada9b47e60695",
+          "sha1": "086aae21f015b21d762e52d33b98f4377017b01e",
+          "md5": "96ebe06decceb1753e06df06b498628a"
+        }
+      ]
+    }
+  ]
+}

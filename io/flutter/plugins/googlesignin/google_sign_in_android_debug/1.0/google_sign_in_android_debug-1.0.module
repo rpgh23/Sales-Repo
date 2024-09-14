@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.googlesignin",
+    "module": "google_sign_in_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_sign_in_android_debug-1.0.aar",
+          "url": "google_sign_in_android_debug-1.0.aar",
+          "size": 46546,
+          "sha512": "f1b1da3d04305d8c28fc05019c77864dcf6825f03cb51710e167d54ead35301605b38537ef3a35063e52f2679091861f123bf93a77c1338cc46749fe56fce7a7",
+          "sha256": "8f3d901d24b2803de35fe23d72559392162b5650e161d090d074694c7ab7bdb6",
+          "sha1": "7477deffcac34ac61935c0b65374f97f40584535",
+          "md5": "6d8d65342bd856dcb5bbc0e1d689b151"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "20.7.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_sign_in_android_debug-1.0.aar",
+          "url": "google_sign_in_android_debug-1.0.aar",
+          "size": 46546,
+          "sha512": "f1b1da3d04305d8c28fc05019c77864dcf6825f03cb51710e167d54ead35301605b38537ef3a35063e52f2679091861f123bf93a77c1338cc46749fe56fce7a7",
+          "sha256": "8f3d901d24b2803de35fe23d72559392162b5650e161d090d074694c7ab7bdb6",
+          "sha1": "7477deffcac34ac61935c0b65374f97f40584535",
+          "md5": "6d8d65342bd856dcb5bbc0e1d689b151"
+        }
+      ]
+    }
+  ]
+}

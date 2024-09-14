@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.scer.pdf_renderer",
+    "module": "pdfx_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdfx_release-1.0.aar",
+          "url": "pdfx_release-1.0.aar",
+          "size": 55206,
+          "sha512": "175db45e565afe91da7b9429f6d16cd50092b8a0d5b668b7c5f35257a31063f39c4d31b202ec3a820da1d1ba73a7f4a0be8fece04b8069bffea1d5e21098a6cb",
+          "sha256": "0ecd1a213d65f1323ec277249c80508e13d11dd7c6322d113eb60ad20d6491ff",
+          "sha1": "13676032bf932996b8262f0a859977f77ecbfab4",
+          "md5": "1bc2991e54a88d0199ce48cd272793ed"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.3.50"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.device_info",
+          "module": "device_info_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pdfx_release-1.0.aar",
+          "url": "pdfx_release-1.0.aar",
+          "size": 55206,
+          "sha512": "175db45e565afe91da7b9429f6d16cd50092b8a0d5b668b7c5f35257a31063f39c4d31b202ec3a820da1d1ba73a7f4a0be8fece04b8069bffea1d5e21098a6cb",
+          "sha256": "0ecd1a213d65f1323ec277249c80508e13d11dd7c6322d113eb60ad20d6491ff",
+          "sha1": "13676032bf932996b8262f0a859977f77ecbfab4",
+          "md5": "1bc2991e54a88d0199ce48cd272793ed"
+        }
+      ]
+    }
+  ]
+}

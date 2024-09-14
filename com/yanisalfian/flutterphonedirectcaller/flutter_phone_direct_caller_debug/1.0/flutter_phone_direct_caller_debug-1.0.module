@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yanisalfian.flutterphonedirectcaller",
+    "module": "flutter_phone_direct_caller_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_phone_direct_caller_debug-1.0.aar",
+          "url": "flutter_phone_direct_caller_debug-1.0.aar",
+          "size": 8892,
+          "sha512": "f1a4eb3a92fe600cf1515eaec684da6bc9cfeb11f1879225e85b20dfe820ba59e464e9e55877fe0cabb9f6aa773eb19a35bfbbeb0f1831962647cbe7c9d4f7d5",
+          "sha256": "459b9ece10becdb382670aee4537c5e6cc15211e3dd2acef8d0b45e03a8bf3cd",
+          "sha1": "bd3be3184ff41fbb1e3a27239d785ac14bc7200e",
+          "md5": "a403d21e7830dc0835cf4e8d4b63cb79"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_phone_direct_caller_debug-1.0.aar",
+          "url": "flutter_phone_direct_caller_debug-1.0.aar",
+          "size": 8892,
+          "sha512": "f1a4eb3a92fe600cf1515eaec684da6bc9cfeb11f1879225e85b20dfe820ba59e464e9e55877fe0cabb9f6aa773eb19a35bfbbeb0f1831962647cbe7c9d4f7d5",
+          "sha256": "459b9ece10becdb382670aee4537c5e6cc15211e3dd2acef8d0b45e03a8bf3cd",
+          "sha1": "bd3be3184ff41fbb1e3a27239d785ac14bc7200e",
+          "md5": "a403d21e7830dc0835cf4e8d4b63cb79"
+        }
+      ]
+    }
+  ]
+}

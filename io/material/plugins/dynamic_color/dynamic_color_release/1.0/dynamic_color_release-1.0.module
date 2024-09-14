@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.material.plugins.dynamic_color",
+    "module": "dynamic_color_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_color_release-1.0.aar",
+          "url": "dynamic_color_release-1.0.aar",
+          "size": 42435,
+          "sha512": "3839135f472d7dfbcfa538af88ff5d4b81423f0b3778e967cc18ac16fffaad2f0f673a490d4230770543b4cfb9660e83bdf38c9f446267cc6607a08828f800d7",
+          "sha256": "347e50b2bf96dde72a210d0e9a0fcaba8519a0361b1e4be37f372b1d9ffa84a3",
+          "sha1": "12c520ee7fb19ff20cbc0ea58a08fea32c30d058",
+          "md5": "4a21dfedadd539218ee976b0302d1bde"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_color_release-1.0.aar",
+          "url": "dynamic_color_release-1.0.aar",
+          "size": 42435,
+          "sha512": "3839135f472d7dfbcfa538af88ff5d4b81423f0b3778e967cc18ac16fffaad2f0f673a490d4230770543b4cfb9660e83bdf38c9f446267cc6607a08828f800d7",
+          "sha256": "347e50b2bf96dde72a210d0e9a0fcaba8519a0361b1e4be37f372b1d9ffa84a3",
+          "sha1": "12c520ee7fb19ff20cbc0ea58a08fea32c30d058",
+          "md5": "4a21dfedadd539218ee976b0302d1bde"
+        }
+      ]
+    }
+  ]
+}

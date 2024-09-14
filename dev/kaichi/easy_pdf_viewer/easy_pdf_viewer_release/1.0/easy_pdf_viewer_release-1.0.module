@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kaichi.easy_pdf_viewer",
+    "module": "easy_pdf_viewer_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easy_pdf_viewer_release-1.0.aar",
+          "url": "easy_pdf_viewer_release-1.0.aar",
+          "size": 10409,
+          "sha512": "f251061edd1c4bebfa93711a4e175ea410f747780474b2c0579a4ac1908aa5dd8905fc7233e0ff513e17f5a70132177abac105abbfa7265a48202a431d495f48",
+          "sha256": "edce93fd95c77540d0a21b329b42998363c030ba5a761f95e2b9a448c5e22bd7",
+          "sha1": "57839668950e49edb8413a67decfc3c4112e1620",
+          "md5": "221bf3d6ec306f7066c1d477f4da77e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easy_pdf_viewer_release-1.0.aar",
+          "url": "easy_pdf_viewer_release-1.0.aar",
+          "size": 10409,
+          "sha512": "f251061edd1c4bebfa93711a4e175ea410f747780474b2c0579a4ac1908aa5dd8905fc7233e0ff513e17f5a70132177abac105abbfa7265a48202a431d495f48",
+          "sha256": "edce93fd95c77540d0a21b329b42998363c030ba5a761f95e2b9a448c5e22bd7",
+          "sha1": "57839668950e49edb8413a67decfc3c4112e1620",
+          "md5": "221bf3d6ec306f7066c1d477f4da77e7"
+        }
+      ]
+    }
+  ]
+}

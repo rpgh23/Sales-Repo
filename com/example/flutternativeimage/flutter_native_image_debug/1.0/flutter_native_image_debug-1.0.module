@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.flutternativeimage",
+    "module": "flutter_native_image_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_native_image_debug-1.0.aar",
+          "url": "flutter_native_image_debug-1.0.aar",
+          "size": 9331,
+          "sha512": "af6542b7602021910a992c43d70d5f494c8972b47caab8aa46de842e1b00fa1bb5df001066c74a9d3acaf3c17fa453b17dad6468accdc71b1f807acdf49b2ef2",
+          "sha256": "cdf808a8a8473eff807aa43c0ea5faf38322825078ca417d42a1c1ed1501577a",
+          "sha1": "588e97484c8d9e16bf78d2df1c3f5717fb69b55f",
+          "md5": "eaa562026ed22815b48e131f555b7d3d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_native_image_debug-1.0.aar",
+          "url": "flutter_native_image_debug-1.0.aar",
+          "size": 9331,
+          "sha512": "af6542b7602021910a992c43d70d5f494c8972b47caab8aa46de842e1b00fa1bb5df001066c74a9d3acaf3c17fa453b17dad6468accdc71b1f807acdf49b2ef2",
+          "sha256": "cdf808a8a8473eff807aa43c0ea5faf38322825078ca417d42a1c1ed1501577a",
+          "sha1": "588e97484c8d9e16bf78d2df1c3f5717fb69b55f",
+          "md5": "eaa562026ed22815b48e131f555b7d3d"
+        }
+      ]
+    }
+  ]
+}

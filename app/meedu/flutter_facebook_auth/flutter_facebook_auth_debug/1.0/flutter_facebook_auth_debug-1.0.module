@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.meedu.flutter_facebook_auth",
+    "module": "flutter_facebook_auth_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_auth_debug-1.0.aar",
+          "url": "flutter_facebook_auth_debug-1.0.aar",
+          "size": 23825,
+          "sha512": "805776db373e7f788d19b2aee8a228aec51f2e20b25c91ec18b9274e9c854f6350c0b4186e1fa30a24b904db867df4d68c0efbb6a60c9d090615f21ebaef2e2d",
+          "sha256": "55e72100c25abefec3b623443e389f82ef4ba4f76a07927413623be3bbc65bb8",
+          "sha1": "603d00d28f2ad84ef9a55792f560ef1a68406069",
+          "md5": "17c43bb12e8c11998fe5fea87cd6991c"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-login",
+          "version": {
+            "requires": "14.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_auth_debug-1.0.aar",
+          "url": "flutter_facebook_auth_debug-1.0.aar",
+          "size": 23825,
+          "sha512": "805776db373e7f788d19b2aee8a228aec51f2e20b25c91ec18b9274e9c854f6350c0b4186e1fa30a24b904db867df4d68c0efbb6a60c9d090615f21ebaef2e2d",
+          "sha256": "55e72100c25abefec3b623443e389f82ef4ba4f76a07927413623be3bbc65bb8",
+          "sha1": "603d00d28f2ad84ef9a55792f560ef1a68406069",
+          "md5": "17c43bb12e8c11998fe5fea87cd6991c"
+        }
+      ]
+    }
+  ]
+}

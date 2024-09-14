@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.mylekha.webcontent_converter",
+    "module": "webcontent_converter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webcontent_converter_debug-1.0.aar",
+          "url": "webcontent_converter_debug-1.0.aar",
+          "size": 29281,
+          "sha512": "c8b9b57e837b55a8cc5342d8c09132b9828616e06f8c878730b5657f4a452c0600a1fba4aed0d418bfdbac2353af1a1808335cdc7f6dbdfe0b63c29a4a85f2e4",
+          "sha256": "b5635751f3b0707be4e167f9a3d30f209b28c04d19ac234efc4235a4270e6e41",
+          "sha1": "a46aa2b33fa71ef60bbf659204807ed625fb3eb7",
+          "md5": "e1ea7b27c5301e84c16fb200eeb4b5c2"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webcontent_converter_debug-1.0.aar",
+          "url": "webcontent_converter_debug-1.0.aar",
+          "size": 29281,
+          "sha512": "c8b9b57e837b55a8cc5342d8c09132b9828616e06f8c878730b5657f4a452c0600a1fba4aed0d418bfdbac2353af1a1808335cdc7f6dbdfe0b63c29a4a85f2e4",
+          "sha256": "b5635751f3b0707be4e167f9a3d30f209b28c04d19ac234efc4235a4270e6e41",
+          "sha1": "a46aa2b33fa71ef60bbf659204807ed625fb3eb7",
+          "md5": "e1ea7b27c5301e84c16fb200eeb4b5c2"
+        }
+      ]
+    }
+  ]
+}

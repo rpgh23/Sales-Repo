@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.livelifedev.flutter_network_connectivity",
+    "module": "flutter_network_connectivity_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_network_connectivity_release-1.0.aar",
+          "url": "flutter_network_connectivity_release-1.0.aar",
+          "size": 10454,
+          "sha512": "b6dae1824991dedb0b653443f8596f202b4f2ccc50f9e2676f9d767174202fde4512c5e50fbf448e62142dac85243191fb4c3470dc253bc580456393609a404b",
+          "sha256": "902b8d3781dcffaecc26160e30e89b374ac6613d44823b95a12ba5a3dca66420",
+          "sha1": "217774dad3cb16598c1b9c353d36fcfcd2f03736",
+          "md5": "124b22afdda8772f3ba9835b37c44169"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_network_connectivity_release-1.0.aar",
+          "url": "flutter_network_connectivity_release-1.0.aar",
+          "size": 10454,
+          "sha512": "b6dae1824991dedb0b653443f8596f202b4f2ccc50f9e2676f9d767174202fde4512c5e50fbf448e62142dac85243191fb4c3470dc253bc580456393609a404b",
+          "sha256": "902b8d3781dcffaecc26160e30e89b374ac6613d44823b95a12ba5a3dca66420",
+          "sha1": "217774dad3cb16598c1b9c353d36fcfcd2f03736",
+          "md5": "124b22afdda8772f3ba9835b37c44169"
+        }
+      ]
+    }
+  ]
+}

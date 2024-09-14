@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.meedu.flutter_facebook_auth",
+    "module": "flutter_facebook_auth_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_auth_release-1.0.aar",
+          "url": "flutter_facebook_auth_release-1.0.aar",
+          "size": 23368,
+          "sha512": "ade195086e60977012b79b054809019099046d33b6ae2b6dd63aeb396b142251d2a84270b05a82c2d83b6474c3879a821482fd277b347cc7d3442b1a0505740b",
+          "sha256": "7289aa3e547895f199227d5f940def108c7a9abd471e068cb62ed540a25d8d84",
+          "sha1": "aec2f41fb3ff5cec594cdd2e18b200fbb9f237c2",
+          "md5": "516bd04ad67bb1d1915dc4bce967f091"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-login",
+          "version": {
+            "requires": "14.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_auth_release-1.0.aar",
+          "url": "flutter_facebook_auth_release-1.0.aar",
+          "size": 23368,
+          "sha512": "ade195086e60977012b79b054809019099046d33b6ae2b6dd63aeb396b142251d2a84270b05a82c2d83b6474c3879a821482fd277b347cc7d3442b1a0505740b",
+          "sha256": "7289aa3e547895f199227d5f940def108c7a9abd471e068cb62ed540a25d8d84",
+          "sha1": "aec2f41fb3ff5cec594cdd2e18b200fbb9f237c2",
+          "md5": "516bd04ad67bb1d1915dc4bce967f091"
+        }
+      ]
+    }
+  ]
+}

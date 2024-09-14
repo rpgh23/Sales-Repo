@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dotsbit.flutter_facebook_keyhash.flutter_facebook_keyhash",
+    "module": "flutter_facebook_keyhash_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_keyhash_release-1.0.aar",
+          "url": "flutter_facebook_keyhash_release-1.0.aar",
+          "size": 5980,
+          "sha512": "6ab17f8135d278dcb9ba433db008773bc9365664d1b96d0ef6c00343bcb11ddf7eb798703619bb549ecccee5ea61bcc209a8d07b712b79c91709de55258b18a1",
+          "sha256": "988781b136c7bdad1bfb1a0602d081c5682381cf23bf2429cc2891f1059c0d58",
+          "sha1": "d20794e230aeb383e5eecebfcd73ea0933e1060f",
+          "md5": "48c8ce38027711c2c29585a557d5a4f6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.3.50"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_facebook_keyhash_release-1.0.aar",
+          "url": "flutter_facebook_keyhash_release-1.0.aar",
+          "size": 5980,
+          "sha512": "6ab17f8135d278dcb9ba433db008773bc9365664d1b96d0ef6c00343bcb11ddf7eb798703619bb549ecccee5ea61bcc209a8d07b712b79c91709de55258b18a1",
+          "sha256": "988781b136c7bdad1bfb1a0602d081c5682381cf23bf2429cc2891f1059c0d58",
+          "sha1": "d20794e230aeb383e5eecebfcd73ea0933e1060f",
+          "md5": "48c8ce38027711c2c29585a557d5a4f6"
+        }
+      ]
+    }
+  ]
+}

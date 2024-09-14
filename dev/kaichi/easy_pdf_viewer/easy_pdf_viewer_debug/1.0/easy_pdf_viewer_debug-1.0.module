@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.kaichi.easy_pdf_viewer",
+    "module": "easy_pdf_viewer_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easy_pdf_viewer_debug-1.0.aar",
+          "url": "easy_pdf_viewer_debug-1.0.aar",
+          "size": 10769,
+          "sha512": "932d551cb9a88c266a6c33f15184afa9bcc43e92eb9092be79f09a27edb7780645b2c28a566229d5ddc7bbda203e2eb87612dd252c30a2e6aff0538c994fb85e",
+          "sha256": "44c228272195be049a10eef985ce4f751c1d6f94d91231030062feb121b50f1e",
+          "sha1": "8ddff559b009a25746e80eabb52c9d6b2c7f2a43",
+          "md5": "bc2e450741b0c26de8fcc47b9e7f1845"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easy_pdf_viewer_debug-1.0.aar",
+          "url": "easy_pdf_viewer_debug-1.0.aar",
+          "size": 10769,
+          "sha512": "932d551cb9a88c266a6c33f15184afa9bcc43e92eb9092be79f09a27edb7780645b2c28a566229d5ddc7bbda203e2eb87612dd252c30a2e6aff0538c994fb85e",
+          "sha256": "44c228272195be049a10eef985ce4f751c1d6f94d91231030062feb121b50f1e",
+          "sha1": "8ddff559b009a25746e80eabb52c9d6b2c7f2a43",
+          "md5": "bc2e450741b0c26de8fcc47b9e7f1845"
+        }
+      ]
+    }
+  ]
+}

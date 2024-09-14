@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.material.plugins.dynamic_color",
+    "module": "dynamic_color_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_color_debug-1.0.aar",
+          "url": "dynamic_color_debug-1.0.aar",
+          "size": 42624,
+          "sha512": "7f41adc6e649690383199cec4a7fce8903ddbc511882d3a8ec58669a81661e314bdb723b62032382c09540f7d54fb15479cfe6b54c6648c74834a563c2e19365",
+          "sha256": "3d3aff7bbacdc0ed3eee020b8681b7015a0808497000c5012c25124f0a297844",
+          "sha1": "8301b1b2c5cc3d63b4faacacd87d11d91e233737",
+          "md5": "1ce51fd223c42ec09202eab6d90814de"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_color_debug-1.0.aar",
+          "url": "dynamic_color_debug-1.0.aar",
+          "size": 42624,
+          "sha512": "7f41adc6e649690383199cec4a7fce8903ddbc511882d3a8ec58669a81661e314bdb723b62032382c09540f7d54fb15479cfe6b54c6648c74834a563c2e19365",
+          "sha256": "3d3aff7bbacdc0ed3eee020b8681b7015a0808497000c5012c25124f0a297844",
+          "sha1": "8301b1b2c5cc3d63b4faacacd87d11d91e233737",
+          "md5": "1ce51fd223c42ec09202eab6d90814de"
+        }
+      ]
+    }
+  ]
+}

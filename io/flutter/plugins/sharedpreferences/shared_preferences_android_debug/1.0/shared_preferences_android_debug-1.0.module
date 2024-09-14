@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.sharedpreferences",
+    "module": "shared_preferences_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared_preferences_android_debug-1.0.aar",
+          "url": "shared_preferences_android_debug-1.0.aar",
+          "size": 13421,
+          "sha512": "585bed8fd0a90b62463beb8e0ca72daf2d372b9d02debb8f0e073b7ad4b5f9814d36abcecb612f5273731e6347da3f48e74a864b8fff48991616c93c26f8c906",
+          "sha256": "bd0bc926820dd88359f89eabc5a0fb8d3d94ab8d5f51728a0d02fc4b7017cf49",
+          "sha1": "52c0f935f5af74f6607048e65ab24a5a78e544c1",
+          "md5": "089cfea26369e6bb0e0bc0cbd27c8f64"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared_preferences_android_debug-1.0.aar",
+          "url": "shared_preferences_android_debug-1.0.aar",
+          "size": 13421,
+          "sha512": "585bed8fd0a90b62463beb8e0ca72daf2d372b9d02debb8f0e073b7ad4b5f9814d36abcecb612f5273731e6347da3f48e74a864b8fff48991616c93c26f8c906",
+          "sha256": "bd0bc926820dd88359f89eabc5a0fb8d3d94ab8d5f51728a0d02fc4b7017cf49",
+          "sha1": "52c0f935f5af74f6607048e65ab24a5a78e544c1",
+          "md5": "089cfea26369e6bb0e0bc0cbd27c8f64"
+        }
+      ]
+    }
+  ]
+}

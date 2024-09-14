@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.linusu.flutter_web_auth_2",
+    "module": "flutter_web_auth_2_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_web_auth_2_debug-1.0.aar",
+          "url": "flutter_web_auth_2_debug-1.0.aar",
+          "size": 10730,
+          "sha512": "51fe60a75edbfb63c395be7ae3ff1462246c7b5ee2608b6a11d4c24911aa604e0cafdf2e26dbfb1be13619d12e5ce7cfca589f0824c99711a0da489ddbd43f45",
+          "sha256": "def831574442a47817eb66596927a711563e14f5ad2c38987b1438da318e14b0",
+          "sha1": "0eef7c3fd59e3c25363c2c05c2207b6347a21f5a",
+          "md5": "f0bf44d9b54d088c562015b384e50058"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_web_auth_2_debug-1.0.aar",
+          "url": "flutter_web_auth_2_debug-1.0.aar",
+          "size": 10730,
+          "sha512": "51fe60a75edbfb63c395be7ae3ff1462246c7b5ee2608b6a11d4c24911aa604e0cafdf2e26dbfb1be13619d12e5ce7cfca589f0824c99711a0da489ddbd43f45",
+          "sha256": "def831574442a47817eb66596927a711563e14f5ad2c38987b1438da318e14b0",
+          "sha1": "0eef7c3fd59e3c25363c2c05c2207b6347a21f5a",
+          "md5": "f0bf44d9b54d088c562015b384e50058"
+        }
+      ]
+    }
+  ]
+}

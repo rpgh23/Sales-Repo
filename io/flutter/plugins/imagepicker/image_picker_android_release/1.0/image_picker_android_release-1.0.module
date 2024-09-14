@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.imagepicker",
+    "module": "image_picker_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_picker_android_release-1.0.aar",
+          "url": "image_picker_android_release-1.0.aar",
+          "size": 65689,
+          "sha512": "72eed4e893762f685dea871c20605270a4bfea72b12e50ff6bcecdc35537b97fead632c190bb443163c5ee638905c495727d4c4b2b97947a23170c98fd516b72",
+          "sha256": "0e7d5a2a943966d233d12982adc5e76587f20c142ff20194ccff6643e1d91165",
+          "sha1": "0586c429932e8b9c9db87b428e2b8dc97b30dfd0",
+          "md5": "27b66cde400f0a070a9303fa06a16a7e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.6"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_picker_android_release-1.0.aar",
+          "url": "image_picker_android_release-1.0.aar",
+          "size": 65689,
+          "sha512": "72eed4e893762f685dea871c20605270a4bfea72b12e50ff6bcecdc35537b97fead632c190bb443163c5ee638905c495727d4c4b2b97947a23170c98fd516b72",
+          "sha256": "0e7d5a2a943966d233d12982adc5e76587f20c142ff20194ccff6643e1d91165",
+          "sha1": "0586c429932e8b9c9db87b428e2b8dc97b30dfd0",
+          "md5": "27b66cde400f0a070a9303fa06a16a7e"
+        }
+      ]
+    }
+  ]
+}

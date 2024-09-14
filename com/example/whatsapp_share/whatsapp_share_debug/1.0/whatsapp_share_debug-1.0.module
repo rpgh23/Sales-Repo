@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.whatsapp_share",
+    "module": "whatsapp_share_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "whatsapp_share_debug-1.0.aar",
+          "url": "whatsapp_share_debug-1.0.aar",
+          "size": 7118,
+          "sha512": "69b7f793cb198d97c0a3d823e28aa2d09a8d31027e6b7c3389c4001f01eb103fe0a8eaddbf9b750f4294948f1c7c669f03e1bad9a09d9d99225e3a369d644754",
+          "sha256": "04212f55f9191462a622a75386b484f4a0adac28215e0962bd7a81c5c4da1c80",
+          "sha1": "cf89b4360f63ed2a8ebeb59c0bc88948608db856",
+          "md5": "0fdedc32480c155a6c73774722d0a4b9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "whatsapp_share_debug-1.0.aar",
+          "url": "whatsapp_share_debug-1.0.aar",
+          "size": 7118,
+          "sha512": "69b7f793cb198d97c0a3d823e28aa2d09a8d31027e6b7c3389c4001f01eb103fe0a8eaddbf9b750f4294948f1c7c669f03e1bad9a09d9d99225e3a369d644754",
+          "sha256": "04212f55f9191462a622a75386b484f4a0adac28215e0962bd7a81c5c4da1c80",
+          "sha1": "cf89b4360f63ed2a8ebeb59c0bc88948608db856",
+          "md5": "0fdedc32480c155a6c73774722d0a4b9"
+        }
+      ]
+    }
+  ]
+}

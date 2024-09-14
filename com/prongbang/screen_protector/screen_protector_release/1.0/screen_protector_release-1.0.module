@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.prongbang.screen_protector",
+    "module": "screen_protector_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen_protector_release-1.0.aar",
+          "url": "screen_protector_release-1.0.aar",
+          "size": 5201,
+          "sha512": "937e24449b19766e27ee35dd4b8b6c2ff5334d9f341977711de5e6929a3a3ae50ca3ecfba938b9a4e13eedaef8f984205fb09502d1e0cdebf8f745168c0510dc",
+          "sha256": "0cccbb135365ebe95b8907e488f958c64a22d83fb7eb6da781f7c07e434b9365",
+          "sha1": "a0184c2d2eef7f326b4be0da4ac79aa49ebf62b7",
+          "md5": "4ec20af16ce670a7caf494a497435939"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screen_protector_release-1.0.aar",
+          "url": "screen_protector_release-1.0.aar",
+          "size": 5201,
+          "sha512": "937e24449b19766e27ee35dd4b8b6c2ff5334d9f341977711de5e6929a3a3ae50ca3ecfba938b9a4e13eedaef8f984205fb09502d1e0cdebf8f745168c0510dc",
+          "sha256": "0cccbb135365ebe95b8907e488f958c64a22d83fb7eb6da781f7c07e434b9365",
+          "sha1": "a0184c2d2eef7f326b4be0da4ac79aa49ebf62b7",
+          "md5": "4ec20af16ce670a7caf494a497435939"
+        }
+      ]
+    }
+  ]
+}
