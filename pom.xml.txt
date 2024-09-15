@@ -1,0 +1,17 @@
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.salespandadm.app</groupId>
+            <artifactId>flutter_debug</artifactId>
+            <version>1.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <mainClass>com.salespandadm.app</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
